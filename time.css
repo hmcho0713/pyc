@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'JSDongkang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  text-align: center;
+  font-family: 'JSDongkang-Regular';
+}
+
+#times_date {
+  display: inline-block;
+  font-size: 75px;
+  margin: 100px 10px 10px 10px;
+}
+
+#times_second {
+  display: inline-block;
+  font-size: 125px;
+  margin: 10px 10px;
+}
+
+.time_sentence {
+  font-size: 50px;
+  margin: 50px;
+}

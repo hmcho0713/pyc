@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'JSDongkang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  text-align: center;
+  font-family: 'JSDongkang-Regular';
+  font-size: 20px;
+  background: black;
+  color: white;
+}
+
+.submit_chat {
+    border-radius: 50px;
+    display: block;
+    padding: 5px 20px;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: rgb(67, 250, 123);
+    border: none;
+    font-family: 'JSDongkang-Regular';
+    position: relative;
+    text-align: right;
+    margin: 0 0 0 30px;
+}
+
+.submit_chat:hover {
+  background: rgb(67, 212, 123)
+}
+
+.input_chat {
+  resize: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  width: 90%;
+  background-color: white;
+  margin: 5px 0 0 5px;
+  color: black;
+  font-family: 'JSDongkang-Regular';
+  font-size: 20px;
+  position: relative;
+}
+
+
+.nickname_container {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background: gray;
+  left: 30%;
+  top: 20%;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s cubic-bezier(0, 0.15, 0.4, 1);
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.nick_input {
+  position: relative;
+  left: 0%;
+  top: 30%;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: white;
+  margin: 20px 0 0 5px;
+  color: black;
+  font-family: 'JSDongkang-Regular';
+  font-size: 20px;
+}
+
+#nick {
+  position: relative;
+  left: 0%;
+  top: 50%
+}
+
+.chat_container {
+  overflow: hidden;
+  background: white;
+  border-radius: 20px;
+  width: 70%;
+  height: 560px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  line-height: 50px;
+}
+
+.input_family {
+  border-radius: 20px;
+  background-color: white;
+  width: 70%;
+  margin: 5px auto;
+  padding: 10px;
+}
